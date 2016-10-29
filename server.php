@@ -1,8 +1,8 @@
 <?
   if (isset($_GET['input'])) {
-    header('name: value');
+    header('header: value');
     $arr = array('responde' => 'text: '.$_GET['input']);
-    setcookie('aaa','bbb');
+    setcookie('cookie','value');
     echo json_encode($arr);
   }
 ?>
