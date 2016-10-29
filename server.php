@@ -5,4 +5,6 @@
     setcookie('cookie','value');
     echo json_encode($arr);
   }
+  //testline
+  ech0 '';
 ?>
